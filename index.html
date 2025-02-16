@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebCoin iCash</title>
+
+    
+
+    <!-- link bootstrap css file -->
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">    
+
+    <!-- link bootstrap icons -->
+     <link rel="stylesheet" href="./bootstrap/icons/font/bootstrap-icons.css">
+</head>
+
+<body">
+    <!-- Barra de Navegação -->
+     <nav class="navbar bg-warning navbar-expand-md py-3 sticky-top">
+
+        <div class="container-fluid">
+
+            <!-- brand -->
+            <a href="#home" class="navbar-brand d-flex align-items-center p-1 border rounded border-dark">
+                <!-- icon -->
+                <i class="bi bi-currency-bitcoin fs-.9 me-1"></i>
+                <span class="text-black fw-bold me-1">WebCoin</span>iCash</a>
+
+                <!-- Botão Menu -->
+                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navBarMenu" >
+                    <span class="navbar-toggler-icon"></span>
+                 </button>
+
+                <!-- itens de menu -->
+                 <div class="collapse navbar-collapse justify-content-end" id="navBarMenu">
+
+                    <ul class="navbar-nav text-center d-flex align-items-center text-uppercase">
+
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#desenvolvimento" class="nav-link">Desenvolvimento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#adquirir" class="nav-link">Adquirir</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#bonus" class="nav-link">Bônus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#feedback" class="nav-link">Feedback</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#sobre" class="nav-link">Sobre</a>
+                        </li>
+
+                    </ul>
+
+                 </div>
+
+        </div>
+
+     </nav> <!-- Fim NavBar -->
+
+     <!-- Seção Home -->
+      <section id="home">
+        
+        <div class="container">
+
+            <!-- grid system -->
+            <div class="row py-2">
+
+                <div class="col">
+
+                    <!-- <h3>Home</h3>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore alias, pariatur maxime fugiat incidunt cumque quaerat! Fugit qui ex, harum animi nostrum minus. Voluptate autem, omnis modi dignissimos in quibusdam cum illo officiis qui laboriosam, exercitationem ducimus nulla nobis! Cupiditate mollitia eveniet quod pariatur repellendus assumenda. Dolore assumenda atque est dicta impedit obcaecati numquam at repellendus minima dolor ex eos error provident tenetur soluta consequatur recusandae corrupti odio illum aliquid vero, placeat itaque laborum! Qui recusandae nisi excepturi dignissimos reiciendis, blanditiis quidem modi nulla, voluptate maxime cum veniam. Sequi consequuntur esse excepturi aspernatur tenetur totam eligendi iusto! Molestias, enim quae?</p> -->
+
+                    <div class="carousel slide " data-bs-ride="carousel" id="ads">
+
+                        <!-- Exibindo os indicadores dos slides do carousel -->
+                         <div class="carousel-indicators">
+                            <button class="active" data-bs-target="#ads" data-bs-slide-to="0"></button>
+                            <button class="" data-bs-target="#ads" data-bs-slide-to="1"></button>
+                            <button class="" data-bs-target="#ads" data-bs-slide-to="2"></button>
+                        </div>
+    
+                        <!-- Armazena os slides que serão exibidos no carousel -->
+                        <div class="carousel-inner">
+    
+                            <!-- Obs.: alterar fotos para fotos do projeto -->
+                            <div class="carousel-item active" data-bs-interval="2000"> 
+                                <img src="./img/slide1.jpg" alt="" class="d-block w-100">
+    
+                                <!-- Textos Sobre as Imagens do Carousel -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    
+                                    <h1>Descubra seu lado Investidor!</h1>
+    
+                                    <p> Pré-registre-se agora e seja um dos primeiros a experimentar
+                                        a maior piada da internet!
+                                    </p>
+    
+                                </div>
+    
+    
+                            </div>
+    
+                            <div class="carousel-item" data-bs-interval="1000">
+                                <img src="./img/slide2.jpg" alt="" class="d-block w-100">
+    
+                                <!-- Textos Sobre as Imagens do Carousel -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    
+                                    <h1>WebCoin - A Moeda que Vai Revolucionar o Mundo!</h1>
+                                    
+                                    <p> Pré-registre-se agora e seja um dos primeiros a experimentar
+                                         a maior piada da internet!</p>
+    
+                                </div>
+    
+                            </div>
+    
+                            <div class="carousel-item" data-bs-interval="3000">
+                                <img src="./img/slide3.jpg" alt="" class="d-block w-100">
+    
+                                <!-- Textos Sobre as Imagens do Carousel -->
+                                <div class="carousel-caption d-none d-md-block">
+                                    
+                                    <h1> WebCoin - A Moeda que Vai Revolucionar o Mundo!</h1>
+                                    
+                                
+                                </div>
+    
+                            </div>
+    
+                        </div>
+    
+                        <!-- Botões de Retroceder e Avançar os Slides -->
+                        <button class="carousel-control-prev" data-bs-target="#ads" data-bs-slide="prev"><span class="carousel-control-prev-icon"></span></button>
+    
+                        <button class="carousel-control-next" data-bs-target="#ads" data-bs-slide="next"><span class="carousel-control-next-icon"></span></button>
+    
+                    </div>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+      </section> 
+      <br>
+      <br>
+      <br>
+      <br>
+
+     <!-- Seção Desenvolvimento -->
+      <section id="desenvolvimento" class="bg-secondary-subtle py-3">
+
+        <div class="container">
+            <!-- grid system -->
+             
+
+            <div class="text-center">
+                <div class="row py-2">
+
+                    <div class="col">
+    
+                        <h3>Desenvolvimento</h3>
+    
+                        <p><h4>Bem-vindo à WebCoin, a memecoin mais épica da história! Nós somos um grupo de
+                             desenvolvedores entuziastas que decidiram criar uma moeda que 
+                            é ao mesmo tempo uma paródia e uma homenagem às criptomoedas.</h4></p>
+    
+                    </div>
+    
+
+            
+                </div>
+            </div>
+            <div class="row text-center">
+                
+
+                <div class="col-md-4">
+                    <i class="bi bi-lightbulb"></i>
+                    <h4 class="my-3">Ideia!</h4>
+                   
+                    <p class="text-decoration-none">"Era uma noite de quinta-feira e o desenvolvedor Alexandre estava navegando pelo Twitter, vendo as 
+                        últimas notícias sobre criptomoedas. De repente, ele viu um meme de um gato usando óculos de sol e 
+                        segurando um cartão de crédito, com a legenda "WebCoin: a moeda do futuro"..</p>
+
+
+                        <img src="./img/about/img1.jpeg" alt="" class="d-block w-100">
+    
+
+
+                </div>
+
+
+                <div class="col-md-4">
+                    <i class="bi bi-laptop"></i>
+                    <h4 class="my-3">Ação!</h4>
+                    <p class="text-decoration-none">"Ele começou a trabalhar na WebCoin naquela mesma noite, criando um código básico e um site simples.
+                         No dia seguinte, ele compartilhou o link com alguns amigos e conhecidos no Twitter, 
+                        brincando que estava criando a "próxima grande coisa" em criptomoedas."</p>
+
+                        <img src="./img/about/img2.jpeg" alt="" class="d-block w-100">
+                </div>
+
+                <div class="col-md-4">
+                    <i class="bi bi-stars"></i>
+                    <h4 class="my-3">Sucesso!</h4>
+                    <p class="text-decoration-none">"Em uma semana, a WebCoin tinha uma comunidade de milhares de pessoas, 
+                        todas brincando e se divertindo com a ideia de uma moeda "para nada". Alex estava surpreso e feliz 
+                        com o resultado, e começou a trabalhar em atualizações e melhorias para a moeda."</p>
+
+                        <img src="./img/about/img3.jpeg" alt="" class="d-block w-100">
+                </div>
+
+
+            </div>
+        </div>
+
+      </section> 
+
+     <!-- Seção Adquirir -->
+      <section id="adquirir">
+
+        <div class="container">
+
+            <!-- grid system -->
+            <div class="row py-2">
+
+                <div class="col">
+
+                    <h3>Pré Lançamento</h3>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore alias, pariatur maxime fugiat incidunt cumque quaerat! Fugit qui ex, harum animi nostrum minus. Voluptate autem, omnis modi dignissimos in quibusdam cum illo officiis qui laboriosam, exercitationem ducimus nulla nobis! Cupiditate mollitia eveniet quod pariatur repellendus assumenda. Dolore assumenda atque est dicta impedit obcaecati numquam at repellendus minima dolor ex eos error provident tenetur soluta consequatur recusandae corrupti odio illum aliquid vero, placeat itaque laborum! Qui recusandae nisi excepturi dignissimos reiciendis, blanditiis quidem modi nulla, voluptate maxime cum veniam. Sequi consequuntur esse excepturi aspernatur tenetur totam eligendi iusto! Molestias, enim quae?</p>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+      </section> 
+
+     <!-- Seção Bônus -->
+      <section id="bonus" class="bg-secondary-subtle py-3">
+
+        <div class="container">
+
+            <!-- grid system -->
+            <div class="row py-2">
+
+                <div class="col">
+
+                    <h3>Bônus</h3>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore alias, pariatur maxime fugiat incidunt cumque quaerat! Fugit qui ex, harum animi nostrum minus. Voluptate autem, omnis modi dignissimos in quibusdam cum illo officiis qui laboriosam, exercitationem ducimus nulla nobis! Cupiditate mollitia eveniet quod pariatur repellendus assumenda. Dolore assumenda atque est dicta impedit obcaecati numquam at repellendus minima dolor ex eos error provident tenetur soluta consequatur recusandae corrupti odio illum aliquid vero, placeat itaque laborum! Qui recusandae nisi excepturi dignissimos reiciendis, blanditiis quidem modi nulla, voluptate maxime cum veniam. Sequi consequuntur esse excepturi aspernatur tenetur totam eligendi iusto! Molestias, enim quae?</p>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+      </section> 
+
+     <!-- Seção Feedback -->
+      <section id="feedback">
+
+        <div class="container">
+
+            <!-- grid system -->
+            <div class="row py-2">
+
+                <div class="col">
+
+                    <h3>Feedback</h3>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore alias, pariatur maxime fugiat incidunt cumque quaerat! Fugit qui ex, harum animi nostrum minus. Voluptate autem, omnis modi dignissimos in quibusdam cum illo officiis qui laboriosam, exercitationem ducimus nulla nobis! Cupiditate mollitia eveniet quod pariatur repellendus assumenda. Dolore assumenda atque est dicta impedit obcaecati numquam at repellendus minima dolor ex eos error provident tenetur soluta consequatur recusandae corrupti odio illum aliquid vero, placeat itaque laborum! Qui recusandae nisi excepturi dignissimos reiciendis, blanditiis quidem modi nulla, voluptate maxime cum veniam. Sequi consequuntur esse excepturi aspernatur tenetur totam eligendi iusto! Molestias, enim quae?</p>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+      </section> 
+
+     <!-- Seção Sobre -->
+      <section id="sobre" class="bg-secondary-subtle py-3">
+
+        <div class="container">
+
+            <!-- grid system -->
+            <div class="row py-2">
+
+                <div class="col">
+
+                    <h3>Sobre</h3>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempore alias, pariatur maxime fugiat incidunt cumque quaerat! Fugit qui ex, harum animi nostrum minus. Voluptate autem, omnis modi dignissimos in quibusdam cum illo officiis qui laboriosam, exercitationem ducimus nulla nobis! Cupiditate mollitia eveniet quod pariatur repellendus assumenda. Dolore assumenda atque est dicta impedit obcaecati numquam at repellendus minima dolor ex eos error provident tenetur soluta consequatur recusandae corrupti odio illum aliquid vero, placeat itaque laborum! Qui recusandae nisi excepturi dignissimos reiciendis, blanditiis quidem modi nulla, voluptate maxime cum veniam. Sequi consequuntur esse excepturi aspernatur tenetur totam eligendi iusto! Molestias, enim quae?</p>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+      </section> 
+
+
+
+      <footer class="footer py-4">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-4 text-lg-start">Copyright &copy; webcoin.com.br 2025</div>
+                <div class="col-lg-4 my-3 my-lg-0">
+                    <i class="bi bi-facebook"></i>
+                    <i class="bi bi-instagram"></i>
+                    <i class="bi bi-whatsapp"></i>
+
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                    <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- link bootstrap js file -->
+    <script src="./bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
